@@ -1,0 +1,74 @@
+.colorbutton{
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 1px 1px;
+    cursor: pointer;
+  }
+
+  
+
+
+  hr.line {
+    border-top: 1px solid #7fba00;
+    padding-top: 0ch;
+  }
+
+  hr.emptybackground {
+    background: #fff;
+    padding-top: 100px;
+  }
+
+
+
+.checked {
+  color: green;
+}
+.checkedgrey {
+  color: grey;
+
+}
+
+.offerflag {
+  width: 24px;
+  height: 100px;
+  text-align:center ;
+  right: 10px;
+  top: 0;
+  background-color:rgb(228, 247, 228);
+  color:black;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  z-index: 40;
+  writing-mode: vertical-rl;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.productposition {
+  position: absolute;
+  right: 60px;
+  top:100 px;
+  bottom : 0px;
+  width:100px;
+  padding: 10px;
+
+}
+
+.spacing{
+  padding: 0px;
+}
+
+.linebreak{
+  margin-top: 8px;
+}
+
+c{
+  color:maroon;
+  font-weight: bold;
+}

@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.color-nav-header{
+background-color: #00833d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #00833d;
+	letter-spacing: 3px
+}
+
+.headings {
+	text-align: center;
+	max-width: 1400px;
+	margin: 0 auto
+}
+
+.headings h2 {
+	font-size: 3rem
+}
+
+@media screen and (max-width:768px) {
+	.headings h2 {
+		font-size: 3rem
+	}
+}
+
+@media screen and (max-width:480px) {
+	.headings h2 {
+		font-size: 2rem;
+		letter-spacing: 2px
+	}
+}
+
+.headings .line-through {
+	position: relative;
+	z-index: 1
+}
+
+.headings .line-through:before {
+	border-top: 2px solid #7fba00;
+	content: "";
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1
+}
+
+.headings .line-through span {
+	background: #fff;
+	padding: 0 5px
+}
+
+.headings .heading-tagline {
+	letter-spacing: 3px;
+	font-size: 2rem
+}
+
+@media screen and (max-width:768px) {
+	.headings .heading-tagline {
+		font-size: 2rem
+	}
+}
+
+@media screen and (max-width:480px) {
+	.headings .heading-tagline {
+		font-size: 1rem
+	}
+}
+
+.headings a {
+	color: #000;
+	text-decoration: underline;
+	text-transform: uppercase
+}
+
+@media screen and (max-width:480px) {
+	.headings a {
+		font-size: 1rem
+	}
+}
+
+img {
+    margin-left: 10px;
+    vertical-align: middle;
+    border-style: none;
+}
